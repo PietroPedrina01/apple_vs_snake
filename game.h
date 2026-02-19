@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdint.h>
+
 #ifndef GAME_H_
 
 #define GAME_H_
@@ -19,3 +22,5 @@ Game game_init(void);
 void game_update(void);
 void game_key_down(int key);
 void game_key_up(int key);
+
+#endif
